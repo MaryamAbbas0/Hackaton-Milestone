@@ -1,0 +1,83 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f8dbdb;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: inline-flex;
+    background-color: rgb(247, 229, 229);
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 10px rgba(3, 3, 3, 0.1);
+}
+
+.Left-section {
+    background-color: #666262;
+    color: white;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    border-right: 2px solid #3a3737;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 20%;
+    border-radius: 30%;
+    border: 5px solid #a79697;
+    margin-bottom: 30px;
+}
+
+.h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #e63946;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: none; /* Changed to remove bullets */
+    padding: 0; /* Updated padding */
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.right-section {
+    padding: 20px;
+    width: 65%; /* Added % to make it consistent */
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #9b7f81;
+}
